@@ -1,0 +1,61 @@
+Scores for opinion_suggestion
+
+
+rained with 4 labels using opinion suggestion, other, both( may be imbalanace of data set scores decresaed) with count vectorizer 
+
+
+Logistic Regression
+
+
+Validation F1: 0.3517
+Precision: 0.3711
+Recall: 0.3800
+F1: 0.3723
+
+
+Linear svc
+
+Validation F1: 0.3517
+Precision: 0.3864
+Recall: 0.3928
+F1: 0.3846
+
+
+Linear svc with ngram range (1,2) with count vectorizer 
+
+Validation F1: 0.3665
+Precision: 0.3350
+Recall: 0.3408
+F1: 0.3261
+
+Logistic regression with ngram range(1,2) with count vectorizer 
+
+Validation F1: 0.3665
+Precision: 0.3711
+Recall: 0.3800
+F1: 0.3723
+
+
+TF-idf vectorizer()
+
+
+Linear svc
+
+Validation F1: 0.3087
+Precision: 0.3139
+Recall: 0.3163
+
+
+
+
+Logistic Regression ----------
+
+Validation F1: 0.3087
+Precision: 0.3111
+Recall: 0.3134
+F1: 0.3090
+
+
+
+
+
